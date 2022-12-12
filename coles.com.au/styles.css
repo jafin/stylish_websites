@@ -1,0 +1,65 @@
+/* tighten the whitespace on the coles website */
+
+@-moz-document domain("coles.com.au") {
+#coles-targeting-main-container {
+    background-color: #E1E1E1 !important;
+}
+.product__pricing_area {
+    min-height: 1rem !important;
+}
+.product__image_area {
+    margin-bottom: 0rem !important;
+}
+
+.product__image_area .product__link  {
+    padding: 0rem 0rem 0px !important;
+}
+
+.product__header .product__message-title_area .product__link {
+    padding-top:0rem !important;
+}
+
+.product__cta_section {
+    padding-top: 0rem !important;
+    margin-top: 0px !important;
+}
+
+.product__pricing_area {
+    margin-bottom: 0rem !important;
+}
+
+#coles-targeting-main-container>div {
+    padding: 0rem 0rem;
+}
+
+.coles-targeting-StylesSearchStylesProductFilterWrapper {
+    margin-top:0px;
+}
+
+.coles-targeting-StylesSearchStylesSortWrapper {
+    margin-top:0px !important;
+}
+
+.coles-targeting-StylesSearchStylesSortWrapper > div {
+    margin-top:0px !important;
+}
+
+.coles-targeting-StylesCategoryStylesProductListContainer {
+    margin-top: 0px;
+}
+
+.coles-targeting-StylesCategoryStylesProductListContainer > section {
+    padding: 5px !important;
+}
+
+.coles-targeting-StylesCategoryStylesProductListContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* [data-my-attribute] {
+    Styles 
+}
+*/
+
+
+}
